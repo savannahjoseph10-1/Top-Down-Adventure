@@ -17,11 +17,13 @@ public class PlayerMovemet : MonoBehaviour
     private float moveSpeed = 5f;
     private Rigidbody2D rb;
     private Vector2 moveinput;
+    private Animator animator;
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
+        animator = GetComponent<animator>();
     }
 
     // Update is called once per frame
@@ -32,6 +34,18 @@ public class PlayerMovemet : MonoBehaviour
     
     public void Move(InputAction.CallBackContext context)
     {
+        animator.SetBool("isWalking", true);
+        if (context.canceled)
+        {
+            animator.SetBool("isWalking", false);
+            animator.SetFloat("LastInputX", moveinput.x);
+            animator.SetFloat("LastInputY", moveinput.y);
+
+        }
         moveInput = context.ReadValue<Vector2>();
+
+        animator.SetFloat("InputX", moveinput.x);
+        animator.SetFloat("InputY", moveinput.y);
+
     }
 }

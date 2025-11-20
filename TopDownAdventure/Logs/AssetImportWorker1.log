@@ -235,3 +235,31 @@ Memory consumption went from 143.9 MB to 136.9 MB.
 Total: 393.825500 ms (FindLiveObjects: 5.567100 ms CreateObjectMapping: 3.070600 ms MarkObjects: 378.397700 ms  DeleteObjects: 6.785400 ms)
 
 Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 85769.270649 seconds.
+  path: Assets/Art/idleupamin.anim
+  artifactKey: Guid(d6bcbebf1c1893e459336f502f9f40eb) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Art/idleupamin.anim using Guid(d6bcbebf1c1893e459336f502f9f40eb) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '06ca01f9f5d7612c2ceaf79ae2f38aef') in 12.6109588 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.003454 seconds.
+  path: Assets/Art/idleleftanim.anim
+  artifactKey: Guid(643684ff12850604598278165099bf8e) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Art/idleleftanim.anim using Guid(643684ff12850604598278165099bf8e) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '9517df8f00e0c6c689aa71fcf1e9f44d') in 0.1927184 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000246 seconds.
+  path: Assets/Scripts/PlayerMovemet.cs
+  artifactKey: Guid(c196757bb4e18f64cb633b7f14e8042e) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Scripts/PlayerMovemet.cs using Guid(c196757bb4e18f64cb633b7f14e8042e) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '2ceed1c9b74f06d631134609899c1826') in 0.1734798 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0

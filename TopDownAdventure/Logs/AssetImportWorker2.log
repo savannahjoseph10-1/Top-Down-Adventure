@@ -2369,3 +2369,40 @@ Received Import Request.
 Start importing Assets/Art/Tilesets/TilesetFloor_30.asset using Guid(f7c483ec89382934783e7e6f410e66fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e9bf1506e9f446fcd24e6a73587e6e9f') in 0.0391679 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
 
+========================================================================
+Received Import Request.
+  Time since last request: 341751.909369 seconds.
+  path: Assets/Art/Tilesets/TilesetFloor_45.asset
+  artifactKey: Guid(5daabd00d595dc441bdab7d362d6a333) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Tilesets/TilesetFloor_45.asset using Guid(5daabd00d595dc441bdab7d362d6a333) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '3b0ceced2a4df448591b877cf73dbac8') in 0.4930431 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002609 seconds.
+  path: Assets/Art/Tilesets/TilesetFloor_46.asset
+  artifactKey: Guid(9e85201c1ad8ffc488135b1f1820fe09) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Tilesets/TilesetFloor_46.asset using Guid(9e85201c1ad8ffc488135b1f1820fe09) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a3b44dd002249e987e7ec092c7a3b926') in 0.1105706 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000091 seconds.
+  path: Assets/Art/Tilesets/TilesetFloor_50.asset
+  artifactKey: Guid(c83f8d2b358d2114aa71882cf9dddb5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Tilesets/TilesetFloor_50.asset using Guid(c83f8d2b358d2114aa71882cf9dddb5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b28a6babf0ddd03e25388a128f42af2e') in 0.0904812 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000057 seconds.
+  path: Assets/Art/Tilesets/TilesetFloor_52.asset
+  artifactKey: Guid(bfc69cae7f3ae7f40805b25bd42a40da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Tilesets/TilesetFloor_52.asset using Guid(bfc69cae7f3ae7f40805b25bd42a40da) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '82dc550adc5c2c5ad48fc9bf88084e26') in 0.0917431 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0

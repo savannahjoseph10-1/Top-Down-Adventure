@@ -32,7 +32,7 @@ public class PlayerMovemet : MonoBehaviour
         rb.velocity = moveinput * moveSpeed;
     }
     
-    public void Move(InputAction.CallBackContext context)
+    public void Move(InputAction. CallBackContext context)
     {
         animator.SetBool("isWalking", true);
         if (context.canceled)
